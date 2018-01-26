@@ -1,13 +1,11 @@
-<!--
-Author: W3layouts
-Author URL: http://w3layouts.com
-License: Creative Commons Attribution 3.0 Unported
-License URL: http://creativecommons.org/licenses/by/3.0/
--->
+<?php
+	include "include/connection.php";
+	
+?>
 <!DOCTYPE html>
 <html>
 <head>
-<title>Big store a Ecommerce Online Shopping Category Flat Bootstrap Responsive Website Template| Home :: w3layouts</title>
+<title>TPM Bookstore</title>
 <!-- for-mobile-apps -->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -66,196 +64,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 
 </head>
 <body>
-<a href="offer.html"><img src="images/download.png" class="img-head" alt=""></a>
-<div class="header">
-
-		<div class="container">
-			
-			<div class="logo">
-				<h1 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h1>
-			</div>
-			<div class="head-t">
-				<ul class="card">
-					<li><a href="wishlist.html" ><i class="fa fa-heart" aria-hidden="true"></i>Wishlist</a></li>
-					<li><a href="login.html" ><i class="fa fa-user" aria-hidden="true"></i>Login</a></li>
-					<li><a href="register.html" ><i class="fa fa-arrow-right" aria-hidden="true"></i>Register</a></li>
-					<li><a href="about.html" ><i class="fa fa-file-text-o" aria-hidden="true"></i>Order History</a></li>
-					<li><a href="shipping.html" ><i class="fa fa-ship" aria-hidden="true"></i>Shipping</a></li>
-				</ul>	
-			</div>
-			
-			<div class="header-ri">
-				<ul class="social-top">
-					<li><a href="#" class="icon facebook"><i class="fa fa-facebook" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon twitter"><i class="fa fa-twitter" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon pinterest"><i class="fa fa-pinterest-p" aria-hidden="true"></i><span></span></a></li>
-					<li><a href="#" class="icon dribbble"><i class="fa fa-dribbble" aria-hidden="true"></i><span></span></a></li>
-				</ul>	
-			</div>
-		
-
-				<div class="nav-top">
-					<nav class="navbar navbar-default">
-					
-					<div class="navbar-header nav_2">
-						<button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						
-
-					</div> 
-					<div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
-						<ul class="nav navbar-nav ">
-							<li class=" active"><a href="index.html" class="hyper "><span>Home</span></a></li>	
-							
-							<li class="dropdown ">
-								<a href="#" class="dropdown-toggle  hyper" data-toggle="dropdown" ><span>Kitchen<b class="caret"></b></span></a>
-								<ul class="dropdown-menu multi">
-									<div class="row">
-										<div class="col-sm-3">
-											<ul class="multi-column-dropdown">
-			
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Water & Beverages</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Fruits & Vegetables</a></li>
-												<li><a href="kitchen.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Staples</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Branded Food</a></li>
-										
-											</ul>
-										
-										</div>
-										<div class="col-sm-3">
-										
-											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Breakfast &amp; Cereal</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Snacks</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Spices</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Biscuit &amp; Cookie</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sweets</a></li>
-										
-											</ul>
-										
-										</div>
-										<div class="col-sm-3">
-										
-											<ul class="multi-column-dropdown">
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pickle & Condiment</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Instant Food</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Dry Fruit</a></li>
-												<li><a href="kitchen.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Tea &amp; Coffee</a></li>
-										
-											</ul>
-										</div>
-										<div class="col-sm-3 w3l">
-											<a href="kitchen.html"><img src="images/me.png" class="img-responsive" alt=""></a>
-										</div>
-										<div class="clearfix"></div>
-									</div>	
-								</ul>
-							</li>
-							<li class="dropdown">
-							
-								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span> Personal Care <b class="caret"></b></span></a>
-								<ul class="dropdown-menu multi multi1">
-									<div class="row">
-										<div class="col-sm-3">
-											<ul class="multi-column-dropdown">
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Ayurvedic </a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Baby Care</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cosmetics</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Deo & Purfumes</a></li>
-										
-											</ul>
-											
-										</div>
-										<div class="col-sm-3">
-											
-											<ul class="multi-column-dropdown">
-												<li><a href="care.html"> <i class="fa fa-angle-right" aria-hidden="true"></i>Hair Care </a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Oral Care</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Personal Hygiene</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Skin care</a></li>
-										
-											</ul>
-											
-										</div>
-										<div class="col-sm-3">
-											
-											<ul class="multi-column-dropdown">
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i> Fashion Accessories </a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Grooming Tools</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Shaving Need</a></li>
-												<li><a href="care.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Sanitary Needs</a></li>
-										
-											</ul>
-										</div>
-										<div class="col-sm-3 w3l">
-											<a href="care.html"><img src="images/me1.png" class="img-responsive" alt=""></a>
-										</div>
-										<div class="clearfix"></div>
-									</div>	
-								</ul>
-							</li>
-							<li class="dropdown">
-								<a href="#" class="dropdown-toggle hyper" data-toggle="dropdown" ><span>Household<b class="caret"></b></span></a>
-								<ul class="dropdown-menu multi multi2">
-									<div class="row">
-										<div class="col-sm-3">
-											<ul class="multi-column-dropdown">
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Cleaning Accessories</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>CookWear</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Detergents</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Gardening Needs</a></li>
-										
-											</ul>
-										
-										</div>
-										<div class="col-sm-3">
-											
-											<ul class="multi-column-dropdown">
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Kitchen & Dining</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>KitchenWear</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pet Care</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Plastic Wear</a></li>
-										
-											</ul>
-										
-										</div>
-										<div class="col-sm-3">
-										
-											<ul class="multi-column-dropdown">
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Pooja Needs</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Serveware</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Safety Accessories</a></li>
-												<li><a href="hold.html"><i class="fa fa-angle-right" aria-hidden="true"></i>Festive Decoratives </a></li>
-										
-											</ul>
-										</div>
-										<div class="col-sm-3 w3l">
-											<a href="hold.html"><img src="images/me2.png" class="img-responsive" alt=""></a>
-										</div>
-										<div class="clearfix"></div>
-									</div>	
-								</ul>
-							</li>
-							
-							<li><a href="codes.html" class="hyper"> <span>Codes</span></a></li>
-							<li><a href="contact.html" class="hyper"><span>Contact Us</span></a></li>
-						</ul>
-					</div>
-					</nav>
-					 <div class="cart" >
-					
-						<span class="fa fa-shopping-cart my-cart-icon"><span class="badge badge-notify my-cart-badge"></span></span>
-					</div>
-					<div class="clearfix"></div>
-				</div>
-					
-				</div>			
-</div>
-  <!---->
+<?php include 'include/header.php'; ?>
 <div data-vide-bg="video/video">
     <div class="container">
 		<div class="banner-info">
@@ -305,7 +114,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Moong</a>(1 kg)</h6>							
+											<h6><a href="single.php">Moong</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$2.00</label><em class="item_price">$1.50</em></p>
@@ -329,7 +138,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Sunflower Oil</a>(5 kg)</h6>							
+											<h6><a href="single.php">Sunflower Oil</a>(5 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$10.00</label><em class="item_price">$9.00</em></p>
@@ -352,7 +161,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Kabuli Chana</a>(1 kg)</h6>							
+											<h6><a href="single.php">Kabuli Chana</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$3.00</label><em class="item_price">$2.00</em></p>
@@ -375,7 +184,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Soya Chunks</a>(1 kg)</h6>							
+											<h6><a href="single.php">Soya Chunks</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -403,7 +212,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Lays</a>(100 g)</h6>							
+											<h6><a href="single.php">Lays</a>(100 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
@@ -426,7 +235,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Kurkure</a>(100 g)</h6>							
+											<h6><a href="single.php">Kurkure</a>(100 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
@@ -449,7 +258,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Popcorn</a>(250 g)</h6>							
+											<h6><a href="single.php">Popcorn</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
@@ -472,7 +281,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Nuts</a>(250 g)</h6>							
+											<h6><a href="single.php">Nuts</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -500,7 +309,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Banana</a>(6 pcs)</h6>							
+											<h6><a href="single.php">Banana</a>(6 pcs)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$2.00</label><em class="item_price">$1.50</em></p>
@@ -523,7 +332,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Onion</a>(1 kg)</h6>							
+											<h6><a href="single.php">Onion</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$1.00</label><em class="item_price">$0.70</em></p>
@@ -546,7 +355,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html"> Bitter Gourd</a>(1 kg)</h6>							
+											<h6><a href="single.php"> Bitter Gourd</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$2.00</label><em class="item_price">$1.00</em></p>
@@ -569,7 +378,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Apples</a>(1 kg)</h6>							
+											<h6><a href="single.php">Apples</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -597,7 +406,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Honey</a>(500 g)</h6>							
+											<h6><a href="single.php">Honey</a>(500 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
@@ -620,7 +429,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Chocos</a>(250 g)</h6>							
+											<h6><a href="single.php">Chocos</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
@@ -643,7 +452,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Oats</a>(1 kg)</h6>							
+											<h6><a href="single.php">Oats</a>(1 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -666,7 +475,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Bread</a>(500 g)</h6>							
+											<h6><a href="single.php">Bread</a>(500 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
@@ -697,7 +506,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md1 ">
-				<a href="kitchen.html">
+				<a href="kitchen.php">
 					<img src="images/co1.jpg" class="img-responsive img" alt="">
 					<div class="big-sa">
 						<h6>New Collections</h6>
@@ -709,7 +518,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="col-md-4 m-w3ls1">
 			<div class="col-md ">
-				<a href="hold.html">
+				<a href="hold.php">
 					<img src="images/co.jpg" class="img-responsive img" alt="">
 					<div class="big-sale">
 						<div class="big-sale1">
@@ -722,7 +531,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		</div>
 		<div class="col-md-4 m-w3ls">
 			<div class="col-md2 ">
-				<a href="kitchen.html">
+				<a href="kitchen.php">
 					<img src="images/co2.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale2">
 						<h3>Cooking <span>Oil</span></h3>
@@ -731,7 +540,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 				</a>
 			</div>
 			<div class="col-md3 ">
-				<a href="hold.html">
+				<a href="hold.php">
 					<img src="images/co3.jpg" class="img-responsive img1" alt="">
 					<div class="big-sale3">
 						<h3>Vegeta<span>bles</span></h3>
@@ -755,15 +564,15 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-         <a href="kitchen.html"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
+         <a href="kitchen.php"> <img class="first-slide" src="images/ba.jpg" alt="First slide"></a>
        
         </div>
         <div class="item">
-         <a href="care.html"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
+         <a href="care.php"> <img class="second-slide " src="images/ba1.jpg" alt="Second slide"></a>
          
         </div>
         <div class="item">
-          <a href="hold.html"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
+          <a href="hold.php"><img class="third-slide " src="images/ba2.jpg" alt="Third slide"></a>
           
         </div>
       </div>
@@ -789,7 +598,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Moisturiser</a>(500 g)</h6>							
+											<h6><a href="single.php">Moisturiser</a>(500 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
@@ -811,7 +620,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">  Lady Finger</a>(250 g)</h6>							
+											<h6><a href="single.php">  Lady Finger</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
@@ -833,7 +642,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html"> Ribbon</a>(1 pc)</h6>							
+											<h6><a href="single.php"> Ribbon</a>(1 pc)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -855,7 +664,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Grapes</a>(500 g)</h6>							
+											<h6><a href="single.php">Grapes</a>(500 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
@@ -878,7 +687,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Clips</a>(1 pack)</h6>							
+											<h6><a href="single.php">Clips</a>(1 pack)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$7.00</label><em class="item_price">$6.00</em></p>
@@ -900,7 +709,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Conditioner</a>(250 g)</h6>							
+											<h6><a href="single.php">Conditioner</a>(250 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$5.00</label><em class="item_price">$4.50</em></p>
@@ -922,7 +731,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Cleaner</a>(250 kg)</h6>							
+											<h6><a href="single.php">Cleaner</a>(250 kg)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$4.00</label><em class="item_price">$3.50</em></p>
@@ -944,7 +753,7 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 									</a>
 									<div class="mid-1">
 										<div class="women">
-											<h6><a href="single.html">Gel</a>(150 g)</h6>							
+											<h6><a href="single.php">Gel</a>(150 g)</h6>							
 										</div>
 										<div class="mid-2">
 											<p ><label>$1.00</label><em class="item_price">$0.80</em></p>
@@ -975,37 +784,37 @@ function hideURLbar(){ window.scrollTo(0,1); } </script>
 		<div class="col-md-3 footer-grid ">
 			<h3>Menu</h3>
 			<ul>
-				<li><a href="index.html">Home</a></li>
-				<li><a href="kitchen.html">Kitchen</a></li>
-				<li><a href="care.html">Personal Care</a></li>
-				<li><a href="hold.html">Household</a></li>						 
-				<li><a href="codes.html">Short Codes</a></li> 
-				<li><a href="contact.html">Contact</a></li>
+				<li><a href="index.php">Home</a></li>
+				<li><a href="kitchen.php">Kitchen</a></li>
+				<li><a href="care.php">Personal Care</a></li>
+				<li><a href="hold.php">Household</a></li>						 
+				<li><a href="codes.php">Short Codes</a></li> 
+				<li><a href="contact.php">Contact</a></li>
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid ">
 			<h3>Customer Services</h3>
 			<ul>
-				<li><a href="shipping.html">Shipping</a></li>
-				<li><a href="terms.html">Terms & Conditions</a></li>
-				<li><a href="faqs.html">Faqs</a></li>
-				<li><a href="contact.html">Contact</a></li>
-				<li><a href="offer.html">Online Shopping</a></li>						 
+				<li><a href="shipping.php">Shipping</a></li>
+				<li><a href="terms.php">Terms & Conditions</a></li>
+				<li><a href="faqs.php">Faqs</a></li>
+				<li><a href="contact.php">Contact</a></li>
+				<li><a href="offer.php">Online Shopping</a></li>						 
 				 
 			</ul>
 		</div>
 		<div class="col-md-3 footer-grid">
 			<h3>My Account</h3>
 			<ul>
-				<li><a href="login.html">Login</a></li>
-				<li><a href="register.html">Register</a></li>
-				<li><a href="wishlist.html">Wishlist</a></li>
+				<li><a href="login.php">Login</a></li>
+				<li><a href="register.php">Register</a></li>
+				<li><a href="wishlist.php">Wishlist</a></li>
 				
 			</ul>
 		</div>
 		<div class="clearfix"></div>
 			<div class="footer-bottom">
-				<h2 ><a href="index.html"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
+				<h2 ><a href="index.php"><b>T<br>H<br>E</b>Big Store<span>The Best Supermarket</span></a></h2>
 				<p class="fo-para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris</p>
 				<ul class="social-fo">
 					<li><a href="#" class=" face"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
